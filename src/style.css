@@ -17,6 +17,7 @@ ul {
 
 li {
   margin: 0;
+  padding: 0;
   list-style: none;
   color: #707579;
   font-size: 16px;
@@ -56,13 +57,13 @@ li::first-letter {
   line-height: 1;
 }
 
-.weather-temperature .units {
-  position: relative;
-  font-size: 16px;
+.weather-temperature a {
+  text-decoration: none;
 }
 
 .weather-temperature .units {
-  text-decoration: none;
+  position: relative;
+  font-size: 16px;
 }
 
 .weather-temperature .active {
